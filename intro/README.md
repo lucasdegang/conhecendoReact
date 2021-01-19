@@ -38,7 +38,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
+### Nova estrutura
 Folders structure
 intro
 |
@@ -54,3 +54,5 @@ intro
        criar estrutura json para simulacao do DB db.json
        package.json > em "scripts" retirar test e colocar : "start": "json-server --watch db.json --port 3001"
        npm start
+       ### Adicionar o arquivo .gitignore 
+                            node_modules/ 
