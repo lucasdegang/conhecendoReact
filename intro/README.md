@@ -65,6 +65,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         npm run build
         npm install -g serve
         serve -s build
+09. Netfily        
         
 ### Nova estrutura
 Folders structure
