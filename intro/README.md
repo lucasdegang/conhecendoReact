@@ -61,7 +61,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     npm install --save <tech> ou npm install <tech>
     em frontend > package.json
         "bootstrap": "4.1.1",
-        "font-awesome": "4.7.0"
+        "font-awesome": "4.7.0",
+        "jquery": "^3.4.1",
+        "reactstrap": "^8.4.1"
     cd frontend > npm i
     
     App.jsx
