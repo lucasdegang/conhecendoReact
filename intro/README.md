@@ -64,6 +64,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         "font-awesome": "4.7.0"
     cd frontend > npm i
     
+    App.jsx
+        import 'bootstrap/dist/css/bootstrap.min.css'
+        import 'font-awesome/css/font-awesome.min.css'
+    
 08. Deploy
     Packagejson "scripts" > "build": "react-scripts build"
     cd nomeprj:
