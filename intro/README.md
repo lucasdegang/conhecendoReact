@@ -56,7 +56,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         db.json
         package.json "scripts" > "start": "json-serer --watch db.json --port 3001"
         npm start
-06. Aplicar react router https://reactrouter.com/web/guides/quick-start/2nd-example-nested-routing
+06. Rotas: 
+    App.jsx
+        import { BrowserRouter } from "react-router-dom";
+        import Routes from './Routes'
+        export default props =>
+            <BrowserRouter>
+                <div className="app">
+                    <Routes />
+                </div>
+            </BrowserRouter>
+    Routes.jsx
+        import {Switch, Route, Redirect} from  'react-router'
+        export default props => 
+        <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/contato' component={Contato}/>
+            <Redirect from='*' to='/' />       
+        </Switch>
+    Demais componentes
+    import { Link } from 'react-router-dom';
+    <Link to="/destino"/>
+    
 07. Instalação de dependencias:
     npm install --save <tech> ou npm install <tech>
     em frontend > package.json
