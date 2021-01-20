@@ -59,6 +59,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 06. Aplicar react router https://reactrouter.com/web/guides/quick-start/2nd-example-nested-routing
 07. Instalação de dependencias:
     npm install --save <tech> ou npm install <tech>
+    em frontend > package.json
+        "bootstrap": "4.1.1",
+        "font-awesome": "4.7.0"
+    cd frontend > npm i
+    
 08. Deploy
     Packagejson "scripts" > "build": "react-scripts build"
     cd nomeprj:
@@ -69,19 +74,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         
 ### Nova estrutura
 Folders structure
-intro
+general
 |
 --frontend
     |
-    -- npx create-react-app <project>
-       npm start
+    --src
+       |
+       --imgs
+       --components
+         |
+         --templates > partes da tela .jsx e .css
+         --home 
+       --main > App.js (declaracao de dependencias) / App.css / Routes
 --backend
     |
-    -- npm init -y
-       npm i --save <dependencias> 
-       npm i --save json-server@0.13.0 -E
-       criar estrutura json para simulacao do DB db.json
-       package.json > em "scripts" retirar test e colocar : "start": "json-server --watch db.json --port 3001"
-       npm start
-       ### Adicionar o arquivo .gitignore 
+    -- db.json
                             node_modules/ 
