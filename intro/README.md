@@ -43,9 +43,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 01. Criar repositório Github.
 02. Clonar repo para desktop.
-03. Criar pastas Backend e Frontend
+03. Criar pasta Backend
 04. Em Front:
-    Criar projeto com "create-react-app <nomeprj> --use-npm" (verificar doc) ou ultimo sts ok: npx create-react-app <nomeprj> --use-npm
+    Criar projeto com "create-react-app <nomeprj> --use-npm" (verificar doc) ou ultimo sts ok: npx create-react-app <nomeprj>/ <frontend> --use-npm
     Console: npm start
 05. Em Back:
     npm init -y
