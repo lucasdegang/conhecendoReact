@@ -38,6 +38,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+--------------
+
+
+01. Criar repositório Github.
+02. Clonar repo para desktop.
+03. Criar pastas Backend e Frontend
+04. Em Front:
+    Criar projeto com "create-react-app <nomeprj> --use-npm" (verificar doc) ou ultimo sts ok: npx create-react-app <nomeprj> --use-npm
+    Console: npm start
+05. Em Back:
+    npm init -y
+    Criar .gitignore
+        Atribuir /node_modules
+    Opcional:
+        npm i --save json-server@0.13.0 -E
+        db.json
+        package.json "scripts" > "start": "json-serer --watch db.json --port 3001"
+        npm start
+06. Aplicar react router https://reactrouter.com/web/guides/quick-start/2nd-example-nested-routing
+07. Instalação de dependencias:
+    npm install --save <tech> ou npm install <tech>
+08. Deploy
+    Packagejson "scripts" > "build": "react-scripts build"
+    cd nomeprj:
+        npm run build
+        npm install -g serve
+        serve -s build
+        
 ### Nova estrutura
 Folders structure
 intro
