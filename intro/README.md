@@ -53,8 +53,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         Atribuir /node_modules
     Opcional:
         npm i --save json-server@0.13.0 -E
-        db.json
-        package.json "scripts" > "start": "json-serer --watch db.json --port 3001"
+        db.json // em backend ou api
+        package.json "scripts" > "start": "json-server --watch db.json --port 3080"
         npm start
 06. Rotas: 
     App.jsx
