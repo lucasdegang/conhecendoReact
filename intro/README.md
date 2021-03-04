@@ -81,6 +81,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 07. Instalação de dependencias:
     npm install --save <tech> ou npm install <tech>
     em frontend > package.json
+        "axios": "^0.21.1",
         "bootstrap": "4.1.1",
         "font-awesome": "4.7.0",
         "jquery": "^3.4.1",
