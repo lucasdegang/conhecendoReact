@@ -87,6 +87,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         "jquery": "^3.4.1",
         "reactstrap": "^8.4.1"
     cd frontend > npm i
+    Para criar API pode ser usado fetch, axios, express.
     
     App.jsx
         import 'bootstrap/dist/css/bootstrap.min.css'
