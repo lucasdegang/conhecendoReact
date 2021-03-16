@@ -87,7 +87,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         "jquery": "^3.4.1",
         "reactstrap": "^8.4.1"
     cd frontend > npm i
-    Para criar API pode ser usado fetch, axios, express.
+        NPM install <...>
+        Para criar API pode ser usado fetch, axios, express.
+        Para ter segurança com dados e usar o process.env.<...> usar dotenv
     
     App.jsx
         import 'bootstrap/dist/css/bootstrap.min.css'
